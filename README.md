@@ -83,12 +83,12 @@ If using EC2 and getting the "You must be logged in to the server (Unauthorized)
 
 Clone the github repo
 
-git clone https://github.com/N4si/K8s-voting-app.git
+git clone https://github.com/omahalfred/Deploying-A-Cloud-Native-Web-Voting-Application-with-Kubernetes.git
 Create my-ns Namespace
 
-kubectl create ns cloudchamp
+kubectl create ns my-ns
 
-kubectl config set-context --current --namespace cloudchamp
+kubectl config set-context --current --namespace my-ns
 MONGO Database Setup
 
 To create Mongo statefulset with Persistent volumes, run the command in manifests folder:
